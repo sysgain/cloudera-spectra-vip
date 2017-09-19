@@ -5,7 +5,7 @@ datalakeEndPoint=$3
 clientId=$4
 tenantId=$5
 clientSecret=$6
-MangerIP="10.3.0.8"
+MangerIP="10.3.0.5"
 DirectorIP="10.3.0.4"
 curl -u admin:admin 'http://'${MangerIP}':7180/api/v1/clusters/Director_Azure_Deployment/services' > /tmp/ClouderaServices
 cat /tmp/ClouderaServices  | grep 'serviceUrl' | awk -F'/' '{print $6}' | tr -d '",' > /tmp/CServices
