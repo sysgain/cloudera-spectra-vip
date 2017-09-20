@@ -59,9 +59,9 @@
             "dbAddress": "10.3.0.4",
             "dbUsername": "dbadmin",
             "dbPassword": "Sysgain@1234",
-            "masterType": "Standard_DS13",
-            "workerType": "Standard_DS13",
-            "edgeType": "Standard_DS13",
+            "masterType": "Standard_DS12",
+            "workerType": "Standard_DS12",
+            "edgeType": "Standard_DS12",
             "dirUsername": "cloudera",
             "dirPassword": "Sysgain@1234"
         },
