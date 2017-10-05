@@ -117,9 +117,7 @@
         "jobRole": "Administrator",
         "storageAccount": {
             "prefix": "[concat(uniquestring(resourceGroup().id),'storage')]",
-            "type": "Premium_LRS",
-            "dataDiskCount: 11",
-            "dataDiskSize: 128"
+            "type": "Premium_LRS"
         }
     },
     "resources": [
